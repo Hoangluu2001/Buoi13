@@ -15,7 +15,7 @@ function insertion_Sort($my_array)
 }
 
 $test_array = array( 5, -4, 3, 7, 2, 1, 0, 8, 9, 2);
-echo "Original Array :\n";
-echo implode(', ', $test_array);
-echo "\nSorted Array :\n";
+echo "Mang Array Ban Dau La  :\n" ;
+echo implode(', ', $test_array) . "<br>";
+echo "\n Mang  Array Sau Khi Sap Xep La :\n";
 print_r(insertion_Sort($test_array));

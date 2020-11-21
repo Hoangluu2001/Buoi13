@@ -24,7 +24,7 @@ function swap_positions($data1, $left, $right)
 }
 
 $my_array = array(1, 9, 4.5, 6.6, 5.7, -4.5);
-echo "Original Array :\n";
-echo implode(', ', $my_array);
-echo "\nSorted Array :\n";
+echo " Ban Dau Array :\n";
+echo implode(', ', $my_array) .'<br>';
+echo "\n Sau Khi Sap Xep Array :\n";
 echo implode(', ', selection_sort($my_array)) . PHP_EOL;
